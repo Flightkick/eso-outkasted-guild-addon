@@ -1,14 +1,20 @@
 Outkasted = Outkasted or {}
 Outkasted.name = "Outkasted"
-Outkasted.version = "1.0"
+Outkasted.version = "1.1"
 
 function Outkasted.TeleportToGuildHall()
-	JumpToSpecificHouse("@Selegnar", 47)
+	local guildhall = { owner = "@Selegnar", houseId = 47 }
+    -- Apparently JumpToSpecificHouse on the player's own house is not allowed. Something something cohesion...
+	if guildhall.owner == GetDisplayName() then
+        RequestJumpToHouse(guildhall.houseId)
+	else
+	    JumpToSpecificHouse(guildhall.owner, guildhall.houseId)
+	end
 end
 
 function Outkasted.OnAddOnLoaded(_, addonName)
 	if addonName ~= Outkasted.name then return end
-	
+
 	Outkasted.initMenu()
 
 	ZO_CreateStringId("SI_BINDING_NAME_TP_OUTKASTED_GUILD_HALL", "Teleport to Outkasted guild house.")
