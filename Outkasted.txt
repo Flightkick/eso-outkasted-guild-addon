@@ -1,6 +1,6 @@
 ## Title: Outkasted
 ## Author: Flightkick
-## Version: 1.1
+## Version: 1.2
 ## Description: Outkasted Guild Add-On
 ## APIVersion: 100033
 ## DependsOn: LibAddonMenu-2.0

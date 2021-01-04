@@ -1,6 +1,6 @@
 Outkasted = Outkasted or {}
 Outkasted.name = "Outkasted"
-Outkasted.version = "1.1"
+Outkasted.version = "1.2"
 
 function Outkasted.TeleportToGuildHall()
 	local guildhall = { owner = "@Selegnar", houseId = 47 }
