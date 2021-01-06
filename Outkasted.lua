@@ -1,6 +1,8 @@
 Outkasted = Outkasted or {}
 Outkasted.name = "Outkasted"
-Outkasted.version = "1.2"
+Outkasted.version = "1.3"
+Outkasted.website = "https://outkastedguild.com"
+Outkasted.discord = "https://outkastedguild.com/discord"
 
 function Outkasted.TeleportToGuildHall()
 	local guildhall = { owner = "@Selegnar", houseId = 47 }
@@ -43,6 +45,9 @@ function Outkasted.OnAddOnLoaded(_, addonName)
 
 	ZO_CreateStringId("SI_BINDING_NAME_LEAVE_INSTANCE", "Leave instance")
 	SLASH_COMMANDS["/out"] = function() Outkasted.LeaveInstance(false) end
+
+	SLASH_COMMANDS["/website"] = function() RequestOpenUnsafeURL(Outkasted.website) end
+	SLASH_COMMANDS["/discord"] = function() RequestOpenUnsafeURL(Outkasted.discord) end
 end
 
 EVENT_MANAGER:RegisterForEvent(Outkasted.name, EVENT_ADD_ON_LOADED, Outkasted.OnAddOnLoaded)
