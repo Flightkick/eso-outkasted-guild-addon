@@ -15,3 +15,6 @@
 bindings.xml
 Outkasted.lua
 OutkastedMenu.lua
+
+i18n/en.lua
+i18n/$(language).lua

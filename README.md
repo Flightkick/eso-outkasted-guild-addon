@@ -1,5 +1,6 @@
 # Outkasted Guild Add-On for ESO
-This is where the source code of the Outkasted Guild Add-On for the Elder Scrolls Online game is hosted.
+Outkasted is a guild in the Elder Scrolls Online, you can find our website here: https://outkastedguild.com  
+This is where the source code of the Outkasted Guild Add-On is hosted.
 
 You can find the Add-On on esoui here: https://www.esoui.com/downloads/info2881-Outkasted.html  
 It is recommended to download the Add-On with an Add-On manager like Minion https://minion.mmoui.com/

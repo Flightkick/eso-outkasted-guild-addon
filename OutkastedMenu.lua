@@ -13,7 +13,7 @@ function Outkasted.initMenu()
 		author = "Flightkick",
 		version = Outkasted.version,
 		registerForRefresh = true,
-		website = "https://flightkick.gitlab.io/outkasted-website/",
+		website = "https://github.com/Flightkick/eso-outkasted-guild-addon",
 	}
 
 	local optionsData = {
