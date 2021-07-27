@@ -1,6 +1,6 @@
 ## Title: |c22bd65Outkasted|r
 ## Author: Flightkick
-## Version: 1.4
+## Version: 1.5
 ## Description: Outkasted Guild Add-On
 ## APIVersion: 100033
 ## DependsOn: LibAddonMenu-2.0 LibGuildRoster LibHistoire>=392 LibChatMessage LibDebugLogger>=180

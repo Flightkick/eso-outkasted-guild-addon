@@ -1,7 +1,7 @@
 Outkasted = Outkasted or {}
 Outkasted.name = "Outkasted"
 Outkasted.abbreviation = "Outk"
-Outkasted.version = "1.4"
+Outkasted.version = "1.5"
 Outkasted.website = "https://outkastedguild.com"
 Outkasted.discord = "https://outkastedguild.com/discord"
 Outkasted.guildId = 425252
